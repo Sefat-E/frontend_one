@@ -1,0 +1,114 @@
+/* * .box-container{
+   display: flex;
+  height: 120vh;
+  width: 100vh;
+  justify-content: center;
+  margin-top: 80px;
+
+} */ */
+ 
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35lh;
+  gap: 20px; 
+  /* width: 80%; */
+  /* margin-top: 220px; */
+}
+
+.box-1 {
+  /* smaller padding */
+  border: 10px solid #ccc;
+  border-radius: 10px;
+}
+.box-2 {
+  /* smaller padding */
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.img_1,
+.img_2,
+.img_3
+ {
+  width: 100%;         /* Make it responsive to the carousel width */
+  max-width: 500px;    /* Still limit image size */
+  height: auto;
+  display: block;
+  margin: 0 auto;      /* Center the image */
+}
+.img_4,
+.img_5,
+.img_6
+ {
+  width: 50%;         /* Make it responsive to the carousel width */
+  max-width: 500px;    /* Still limit image size */
+  height: auto;
+  display: block;
+  margin: 0 auto;      /* Center the image */
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%;                 /* makes it round */
+  width: 40px;                        /* size of the button */
+  height: 40px; /* temp style for testing */
+}
+
+
+.col{
+    margin-bottom: 20px;
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-around;
+}
+.education{
+    margin-top: 60px;
+}
+.border_bottom{
+    border: 1px solid #ccc;
+
+    /* position: center; */
+    display: block;
+    width: 40%;
+   
+    padding: 20px;
+    margin: auto;;
+    border-radius: 10px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    /* color: gray; */
+}
+.info{
+   border-radius: 100%; 
+   width: 40px;
+   height: 30px;
+   font-weight: bold;
+  
+   
+}
+.Noodla{
+   margin-right: 20px;
+}
+.interest{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+.education{
+    margin-top: 60px;
+    padding-right: 80px;
+}
